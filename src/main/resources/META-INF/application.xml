@@ -6,7 +6,7 @@
     <display-name>service-esb-sample-ear</display-name>
     <module>
         <web>
-            <web-uri>com.resolvix-service-esb-sample-0.0.1-SNAPSHOT.war</web-uri>
+            <web-uri>com.resolvix-service-esb-sample-war-0.0.1-SNAPSHOT.war</web-uri>
             <context-root>service-esb-sample</context-root>
         </web>
     </module>
