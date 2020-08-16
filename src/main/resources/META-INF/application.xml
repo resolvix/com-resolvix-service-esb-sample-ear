@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd"
+             version="7">
+    <display-name>service-esb-sample-ear</display-name>
+    <module>
+        <web>
+            <web-uri>com.resolvix-service-esb-sample-0.0.1-SNAPSHOT.war</web-uri>
+            <context-root>service-esb-sample</context-root>
+        </web>
+    </module>
+</application>
