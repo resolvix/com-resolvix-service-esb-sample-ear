@@ -76,6 +76,14 @@
         <configuration>
           <generateApplicationXml>false</generateApplicationXml>
           <applicationXml>src/main/resources/META-INF/application.xml</applicationXml>
+          <defaultLibBundleDir>lib</defaultLibBundleDir>
+          <modules>
+            <webModule>
+              <groupId>com.resolvix</groupId>
+              <artifactId>service-esb-sample-war</artifactId>
+              <contextRoot>service-esb-sample</contextRoot>
+            </webModule>
+          </modules>
         </configuration>
       </plugin>
     </plugins>
